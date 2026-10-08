@@ -1,0 +1,12 @@
+[project]
+name = "deeplearning-paper"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "lightning>=2.6.6",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "torch>=2.14.1",
+    "torchmetrics>=1.8,<2",
+    "torchvision>=0.29.1",
+]
