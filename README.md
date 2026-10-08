@@ -96,7 +96,7 @@ Use `--results results/smoke_fashioncnn.json` to plot a short trial. Figures are
 
 ### Train on Colab
 
-Upload `fashion_mnist_colab.ipynb`, select a GPU runtime, and execute the cells in order. No repository files are needed for training. Enable `USE_DRIVE` to persist data across Colab sessions. Only completed trials and runs are resumable, not interrupted epochs.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brunoneri/deeplearning_optimization/blob/main/fashion_mnist_pytorch_optimizers.ipynb) select a GPU runtime, and execute the cells in order. No repository files are needed for training. Enable `USE_DRIVE` to persist data across Colab sessions. Only completed trials and runs are resumable, not interrupted epochs.
 
 ## 🗂 Project Structure
 
@@ -105,9 +105,7 @@ Upload `fashion_mnist_colab.ipynb`, select a GPU runtime, and execute the cells 
 - `fashion_mnist_main.py` — learning-rate sweep, repeated runs, and result persistence
 - `optimizers/custom.py` — AdaBelief and Lion implementations
 - `plot_results.py` — plotting and result visualization
-- `fashion_mnist_colab.ipynb` — standalone Colab experiment with the same model and plots
-
-
+- `fashion_mnist_pytorch_optimizers.ipynb` — standalone experiment with the same model and plots
 - `deep_learning_optimization_paper.pdf` — PDF paper
 
 ## 📊 Results
